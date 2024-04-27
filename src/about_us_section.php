@@ -1,4 +1,5 @@
 <section class="py-5 text-center container">
+<div id="about_us_section">
 	<div class="row py-lg-5">
 		<div class="col-lg-6 col-md-5 mx-auto">
 			<h2 class="pb-2 border-bottom">About Us</h2>
@@ -11,4 +12,5 @@
 			</p>
 		</div>
 	</div>
+</div>
 </section>
