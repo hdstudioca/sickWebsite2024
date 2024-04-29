@@ -1,6 +1,6 @@
 <section class="container col-xl-10 col-xxl-8 px-4 py-5">
 	<div id="contact_us_section">
-		<div class="row align-items-center g-lg-5 py-5">
+		<div class="row align-items-top g-lg-5 py-5">
 			<div class="col-lg-7 text-center text-lg-start">
 				<p class="fs-4 text-muted">How can we help you?</p>
 				<h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Contact Us
