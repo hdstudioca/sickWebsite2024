@@ -8,9 +8,9 @@
 			<p class="col-lg-10 fs-4">
 				Tell us a bit about your project, and we'll send you a personalized quote within 24 hours</p>
 			<p class="col-lg-10 fs-5 text-dark">
-				Or email us directly
+				Or email us directly!
 			</p>
-			<p class="col-lg-10 fs-5 text-primary">contact@hdstudio.ca</p>
+			<p class="col-lg-10 fs-5 text-primary"><a class="nav-link"href="mailto:contact@hdstudio.ca">contact@hdstudio.ca</a></p>
 		</div>
 
 		<div class="col-md-10 mx-auto col-lg-5">
