@@ -67,7 +67,7 @@
   <div class="container mt-5 mt-down">
   <div class="row justify-content-center">
     <div class=" text-center">
-      <p class="fst-normal">Design top-tier quality websites at less than half the market price.<br>Our computer science student-led business delivers professional-level services at unbeatable prices.</p>
+      <p class="fst-normal">Develope top-tier websites at a fraction of the market cost. <br> Our computer science student-led organization provides premium services at unparalleled value.</p>
     </div>
   </div>
 </div>
