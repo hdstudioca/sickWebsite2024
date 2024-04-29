@@ -4,14 +4,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-10 col-m-8">
-				<h3 class="fs-5 mb-2 text-secondary text-uppercase">About Us</h3>
+				<h3 class="fs-5 mb-4 text-secondary text-uppercase">About Us</h3>
 				<h2 class="display-5 mb-4" style="font-size: 30px;">We are computer science students from the Okanagan who are dedicated to crafting extraordinary websites. <br><br>
 										   Our passion lies in designing visually stunning and highly functional online experiences.</h2>
 			</div>
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container mt-5">
 		<div class="row gy-3 gy-md-4 gy-lg-0">
 			<div class="col-12 col-lg-6">
 				<div id="animateDiv" class="card bg-light p-3 m-0">
