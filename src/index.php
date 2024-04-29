@@ -8,9 +8,9 @@
 	<link href="
 https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
 " rel="stylesheet">
-	<link rel="preload" href="landingpage.css" as="style" />
+	<link rel="preload" href="styles.css" as="style" />
 	
-	<link rel="stylesheet" href="landingpage.css">
+	<link rel="stylesheet" href="styles.css">
 
 </head>
 
