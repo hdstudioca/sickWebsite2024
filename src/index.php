@@ -8,9 +8,9 @@
 	<link href="
 https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
 " rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-	<script src="contact.js"> </script>
-	<script src="aboutHover.js"> </script>
+	<link rel="preload" href="landingpage.css" as="style" />
+	
+	<link rel="stylesheet" href="landingpage.css">
 
 </head>
 
@@ -33,9 +33,6 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
 
 		include('about_us_section.php');
 
-		// <!--About Us Frame-->
-
-		include('about_us_frames.php');
 
 		// <!--Contact Us-->
 		include('contact_us_section.php');
@@ -46,6 +43,11 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
 
 
 	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="contact.js"> </script>
+	<script src="aboutHover.js"> </script>
+	<script src="scrollToSection.js"></script>
+	<script src="toggleHamburger.js"></script>
 </body>
 
 </html>
