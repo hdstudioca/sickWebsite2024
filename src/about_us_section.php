@@ -1,3 +1,4 @@
+
 <!-- About 4 - Bootstrap Brain Component -->
 <section id="aboutUsSection" class="py-3 py-md-5 py-xl-8 container">
 	<div class="container">
@@ -46,4 +47,5 @@
 			</p>
 		</div>
 	</div>
+</div>
 </section>
