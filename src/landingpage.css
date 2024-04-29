@@ -1,0 +1,80 @@
+.header-text {
+	/* Keep your existing styles */
+	letter-spacing: 7px;
+	font-family: sans-serif;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align: center;
+	animation: typing 3s, cursor .4s step-end infinite alternate;
+	margin: 0 auto;
+	text-align: center;
+
+	/* Overwrite font-size with responsive classes */
+	font-size: 5em;
+	/* Default font size */
+}
+
+/*responsive text sizing classes */
+@media (max-width: 576px) {
+
+	/* Small devices (phones) */
+	.header-text {
+		font-size: 3em;
+		/* Adjust font size for small screens */
+	}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+	/* Medium devices (tablets) */
+	.header-text {
+		font-size: 4em;
+		/* Adjust font size for medium screens */
+	}
+}
+
+/* creates cursor blinking effect
+@keyframes cursor {
+50% { border-color: transparent } 
+} */
+
+/* typing effect(display) */
+@keyframes typing {
+	from {
+		width: 0
+	}
+}
+
+/* Hamburger menu icon */
+.navbar-toggler {
+	border: none;
+	background-color: transparent;
+	outline: none;
+	color: #000;
+}
+
+.navbar-toggler-icon {
+	width: 1.5rem;
+	height: 1.5rem;
+	background-color: transparent;
+	/* Set background color to transparent */
+	/* You may also need to set the icon's background image or content */
+}
+
+/* Hide hamburger menu on medium and larger screens */
+@media (min-width: 768px) {
+	.hide-on-md-lg {
+		display: none;
+	}
+
+	.navbar-collapse {
+		display: flex !important;
+		/* Ensure navbar links are always displayed on medium and larger screens */
+	}
+}
+
+/* Hide navbar links by default */
+.navbar-collapse {
+	display: none;
+}
