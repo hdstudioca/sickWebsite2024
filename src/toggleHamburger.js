@@ -1,21 +1,26 @@
+function closeNavbarOnResize() {
+    const windowWidth = window.innerWidth;
+    const collapseContent = document.getElementById('navbarToggleExternalContent');
+    if (windowWidth >= 768 && collapseContent.classList.contains('show')) {
+        collapseContent.classList.remove('show');
+        isCollapsed = false; // Reset isCollapsed variable
+    }
+}
+
+// Event listener for window resizing
+window.addEventListener('resize', closeNavbarOnResize);
+
 let isCollapsed = false;
 
 function toggleCollapse() {
-	const collapseContent = document.getElementById('navbarToggleExternalContent');
-	const toggledHam = document.getElementById('hamburgerDiv');
-	const navbarToggle = document.querySelector('.navbar-toggler');
+    const collapseContent = document.getElementById('navbarToggleExternalContent');
+    const toggledHam = document.getElementById('hamburgerDiv');
+    
+    if (isCollapsed) {
+        collapseContent.classList.remove('show');
+    } else {
+        collapseContent.classList.add('show');
+    }
 
-	if (isCollapsed) {
-		collapseContent.classList.remove('show');
-		toggledHam.classList.add('justify-content-end');
-		toggledHam.classList.remove('justify-content-between');
-		
-	} else {
-		collapseContent.classList.add('show');
-		toggledHam.classList.remove('justify-content-end');
-		toggledHam.classList.add('justify-content-between');
-	}
-
-	isCollapsed = !isCollapsed;
-
+    isCollapsed = !isCollapsed;
 }

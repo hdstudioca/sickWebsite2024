@@ -1,13 +1,14 @@
 <section class="container">
   <!-- title -->
-  <div class="container mt-5">
-    <h1 class="header-text">HD Studio</h1>
-  </div>
+  <div class="container-2" style="text-align: center;">
+    <span class="header-text">HD Studio</span>
+</div>
+
   <!-- words -->
   <div class="container mt-5 mt-down">
     <div class="row justify-content-center">
-      <div class=" text-center">
-        <p class="fst-normal">Develop top-tier websites at a fraction of the market cost. <br> Our computer science student-led organization provides premium services at unparalleled value.</p>
+      <div class="text-center">
+        <p class="fst-normal" style="font-size: 20px;">Develop top-tier websites at a fraction of the market cost. <br> Our computer science student-led organization provides premium services at unparalleled value.</p>
       </div>
     </div>
   </div>

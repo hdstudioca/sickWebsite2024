@@ -3,9 +3,10 @@
 <section id="aboutUsSection" class="py-3 py-md-5 py-xl-8 container">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-md-10 col-lg-8">
+			<div class="col-12 col-md-10 col-m-8">
 				<h3 class="fs-5 mb-2 text-secondary text-uppercase">About Us</h3>
-				<h2 class="display-5 mb-4">Your vision is our priority. We build strong relationships to create digital solutions that exceed expectations.</h2>
+				<h2 class="display-5 mb-4" style="font-size: 30px;">We are computer science students from the Okanagan who are dedicated to crafting extraordinary websites. <br><br>
+										   Our passion lies in designing visually stunning and highly functional online experiences.</h2>
 			</div>
 		</div>
 	</div>
@@ -21,7 +22,7 @@
 						<div class="col-md-7">
 							<div class="card-body p-0">
 								<h2 class="card-title h4 mb-3">Why Choose Us?</h2>
-								<p class="card-text lead">We're developers who love what we do. We'll work closely with you to turn your vision into a reality, without the overhead of a big agency.</p>
+								<p class="card-text lead">As students we are able to offer a unique blend of creativity and affordability. <br> <br> We provide top-notch web solutions at a fraction of the standard market price. <br> <br> With us, you not only gain access to cutting-edge skills, and unwavering commitment, but also enjoy significant cost savings without compromising on quality.</p>
 							</div>
 						</div>
 					</div>
@@ -36,7 +37,7 @@
 						<div class="col-md-7">
 							<div class="card-body p-0">
 								<h2 class="card-title h4 mb-3">Our Team</h2>
-								<p class="card-text lead">We're Cade and Liam, two Kelowna-based developers dedicated to crafting cool digital solutions. Let's build something amazing together!</p>
+								<p class="card-text lead">As childhood freinds Cade Dempsey and Liam Heckrodt shared a fascination for technology. <br> <br> Our journey to be aspiring web developers has been marked by countless hours of coding, brainstorming, and dreaming up innovative ideas. </p>
 							</div>
 						</div>
 					</div>

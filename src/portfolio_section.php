@@ -1,83 +1,72 @@
-<section class="container text-center px-4 py-5" id="custom-cards">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<section>
 <div id="portfolio_section">
-			<h2 class="pb-2 border-bottom">Our Work</h2>
 
-			<div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-				<div class="col">
-					<div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="">
-						<div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-							<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
-							<ul class="d-flex list-unstyled mt-auto">
-								<li class="me-auto">
-									<img src="" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-								</li>
-								<li class="d-flex align-items-center me-3">
-									<svg class="bi me-2" width="1em" height="1em">
-										<use xlink:href="#geo-fill"></use>
-									</svg>
-									<small>Earth</small>
-								</li>
-								<li class="d-flex align-items-center">
-									<svg class="bi me-2" width="1em" height="1em">
-										<use xlink:href="#calendar3"></use>
-									</svg>
-									<small>3d</small>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-				<div class="col">
-					<div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="">
-						<div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-							<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple
-								lines</h3>
-							<ul class="d-flex list-unstyled mt-auto">
-								<li class="me-auto">
-									<img src="" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-								</li>
-								<li class="d-flex align-items-center me-3">
-									<svg class="bi me-2" width="1em" height="1em">
-										<use xlink:href="#geo-fill"></use>
-									</svg>
-									<small>Pakistan</small>
-								</li>
-								<li class="d-flex align-items-center">
-									<svg class="bi me-2" width="1em" height="1em">
-										<use xlink:href="#calendar3"></use>
-									</svg>
-									<small>4d</small>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-				<div class="col">
-					<div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="">
-						<div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-							<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
-							<ul class="d-flex list-unstyled mt-auto">
-								<li class="me-auto">
-									<img src="" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-								</li>
-								<li class="d-flex align-items-center me-3">
-									<svg class="bi me-2" width="1em" height="1em">
-										<use xlink:href="#geo-fill"></use>
-									</svg>
-									<small>California</small>
-								</li>
-								<li class="d-flex align-items-center">
-									<svg class="bi me-2" width="1em" height="1em">
-										<use xlink:href="#calendar3"></use>
-									</svg>
-									<small>5d</small>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 d-flex justify-content-left align-items-left">
+		    <h1 class="fs-5 mb-2 text-secondary text-uppercase">Featured</h1>
+        </div>
+    </div>
 </div>
-		</section>
+
+
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+    </div>
+
+
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>HEADLINE 1</h1>
+            <p class="opacity-75">We don't have any content yet</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>HEADLINE 2</h1>
+            <p>So i dont know what to say on these</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+		<div class="container">
+          <div class="carousel-caption">
+            <h1>HEADLINE 3</h1>
+            <p>Any ideas?</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</section>
