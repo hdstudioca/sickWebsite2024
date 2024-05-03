@@ -174,3 +174,21 @@
  .font-sze {
     font-size: 12px;
 }
+
+#tri {
+	z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60vw;
+    height: 50vh;
+    background: url('../res/okanagan.jpg');
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+
+.logo-left {
+    position: absolute; /* Allows precise placement */
+    left: 0px;         /* Adjust distance from left as needed */
+    top: 0px;          /* Adjust distance from top as needed */
+}
