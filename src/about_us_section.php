@@ -1,6 +1,6 @@
 
 <!-- About 4 - Bootstrap Brain Component -->
-<section id="aboutUsSection" class="py-3 py-md-5 py-xl-8 container">
+<section id="about" class="py-3 py-md-5 py-xl-8 container">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-10 col-m-8">

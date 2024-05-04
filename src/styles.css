@@ -1,61 +1,73 @@
-/* body {
-	background-image: radial-gradient(circle, #ffffff, #ffffff, #d1d1d1, #ffffff, #ffffff);
-} */
+@font-face {
+	font-family: Poppins;
+	src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+	font-family: Delicious;
+	font-weight: bold;
+	src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+
+* {
+	font-family: Poppins;
+}
 
 .header-text {
-    /* slide in animation */
-    letter-spacing: 7px;
-    font-family: sans-serif;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 3s, cursor .4s step-end infinite alternate;
-    margin: 0 auto;
+	/* slide in animation */
+	letter-spacing: 7px;
+	font-family: sans-serif;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 3s, cursor .4s step-end infinite alternate;
+	margin: 0 auto;
 	/* margin-left: 10%;
 	margin-right: 10%; */
-    /* 3d effect css.*/
-		text-transform: uppercase;
-		font-size: 130px;
-		color:#c4c4c4;
-		top:10%;
-		position: relative;
-		transform: translate(-50% ,-50%);
-		text-shadow:
-						0 1px 0 rgb(190,190,190),
-						0 2px 0 rgb(185,185,185),
-						0 3px 0 rgb(180,180,180),
-						0 4px 0 rgb(175,175,175),
-						0 5px 0 rgb(170,170,170),
-						0 6px 0 rgb(165,165,165),
-						0 7px 0 rgb(160,160,160),
-	
-						0 1px 5px rgba(0,0,0,.05),
-						0 3px 5px rgba(0,0,0,.10),
-						0 5px 10px rgba(0,0,0,.15),
-						0 7px 10px rgba(0,0,0,.20),
-						0 10px 15px rgba(0,0,0,.25);
-		transition: all 0.3s ease-in-out;        
-		 cursor: pointer; 
-	}
-	.header-text:hover {
-		text-shadow:
-						0 1px 0 rgb(190,190,190),
-						0 2px 0 rgb(185,185,185),
-						0 3px 0 rgb(180,180,180),
-						0 4px 0 rgb(175,175,175),
-						0 5px 0 rgb(170,170,170),
-						0 6px 0 rgb(165,165,165),
-						0 7px 0 rgb(160,160,160),
-						0 8px 0 rgb(155,155,155),
-						0 9px 0 rgb(150,150,150),
-	
-						0 1px 5px rgba(0,0,0,.05),
-						0 5px 5px rgba(0,0,0,.10),
-						0 10px 10px rgba(0,0,0,.15),
-						0 15px 10px rgba(0,0,0,.20),
-						0 20px 15px rgba(0,0,0,.25);
-		transform: translate(-51%,-51%);
-		transition: all 0.3s ease-in-out;
+	/* 3d effect css.*/
+	text-transform: uppercase;
+	font-size: 130px;
+	color: #c4c4c4;
+	top: 10%;
+	position: relative;
+	transform: translate(-50%, -50%);
+	text-shadow:
+		0 1px 0 rgb(190, 190, 190),
+		0 2px 0 rgb(185, 185, 185),
+		0 3px 0 rgb(180, 180, 180),
+		0 4px 0 rgb(175, 175, 175),
+		0 5px 0 rgb(170, 170, 170),
+		0 6px 0 rgb(165, 165, 165),
+		0 7px 0 rgb(160, 160, 160),
+
+		0 1px 5px rgba(0, 0, 0, .05),
+		0 3px 5px rgba(0, 0, 0, .10),
+		0 5px 10px rgba(0, 0, 0, .15),
+		0 7px 10px rgba(0, 0, 0, .20),
+		0 10px 15px rgba(0, 0, 0, .25);
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.header-text:hover {
+	text-shadow:
+		0 1px 0 rgb(190, 190, 190),
+		0 2px 0 rgb(185, 185, 185),
+		0 3px 0 rgb(180, 180, 180),
+		0 4px 0 rgb(175, 175, 175),
+		0 5px 0 rgb(170, 170, 170),
+		0 6px 0 rgb(165, 165, 165),
+		0 7px 0 rgb(160, 160, 160),
+		0 8px 0 rgb(155, 155, 155),
+		0 9px 0 rgb(150, 150, 150),
+
+		0 1px 5px rgba(0, 0, 0, .05),
+		0 5px 5px rgba(0, 0, 0, .10),
+		0 10px 10px rgba(0, 0, 0, .15),
+		0 15px 10px rgba(0, 0, 0, .20),
+		0 20px 15px rgba(0, 0, 0, .25);
+	transform: translate(-51%, -51%);
+	transition: all 0.3s ease-in-out;
 }
 
 /*responsive text sizing classes ----------------------------------------------------------------*/
@@ -89,44 +101,6 @@
 	}
 }
 
-/* Hamburger menu icon ------------------------------------------------------------------*/
-.navbar-toggler {
-	border: none;
-	background-color: transparent;
-	outline: none;
-	color: #000;
-}
-
-.navbar-toggler-icon {
-	width: 1.5rem;
-	height: 1.5rem;
-	background-color: transparent;
-	/* Set background color to transparent */
-	/* You may also need to set the icon's background image or content */
-}
-
-/* Hide hamburger menu on medium and larger screens */
-@media (min-width: 768px) {
-	.hide-on-md-lg {
-		display: none;
-	}
-
-	.navbar-collapse {
-		display: flex !important;
-		/* Ensure navbar links are always displayed on medium and larger screens */
-	}
-}
-
-/* Hide navbar links by default */
-.navbar-collapse {
-	display: none;
-}
-
-.nav-link {
-    font-size: 20px; /* Adjust the font size as needed */
-	margin-right: 50px;
-	
-}
 
 /* portfolio carousel css--------------------------------------------------------------------------------------------*/
 
@@ -135,60 +109,114 @@
 .carousel {
 	margin-bottom: 4rem;
 	width: 100%;
-  }
-  /* Since positioning the image, we need to help out the caption */
-  .carousel-caption {
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
 	bottom: 3rem;
 	z-index: 10;
-  }
-  
-  /* Declare heights because of positioning of img element */
-  .carousel-item {
-	height: 32rem;
-  }
+}
 
-  
+/* Declare heights because of positioning of img element */
+.carousel-item {
+	height: 32rem;
+}
+
+
 @media (min-width: 40em) {
+
 	/* Bump up size of carousel content */
 	.carousel-caption p {
-	  margin-bottom: 1.25rem;
-	  font-size: 1.25rem;
-	  line-height: 1.4;
+		margin-bottom: 1.25rem;
+		font-size: 1.25rem;
+		line-height: 1.4;
 	}
-  
+
 	.featurette-heading {
-	  font-size: 50px;
+		font-size: 50px;
 	}
-  }
-  
-  @media (min-width: 62em) {
+}
+
+@media (min-width: 62em) {
 	.featurette-heading {
-	  margin-top: 7rem;
+		margin-top: 7rem;
 	}
-  }
+}
 
-  /* header text for featured section */
+/* header text for featured section */
 
- /* about us text -------------------------------------------------------------------------------------------------------------------------------------- */
+/* about us text -------------------------------------------------------------------------------------------------------------------------------------- */
 
- .font-sze {
-    font-size: 12px;
+.font-sze {
+	font-size: 12px;
 }
 
 #tri {
 	z-index: -1;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 60vw;
-    height: 50vh;
-    background: url('../res/okanagan.jpg');
-    background-size: cover;
-    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 60vw;
+	height: 50vh;
+	background: url('../res/okanagan.jpg');
+	background-size: cover;
+	clip-path: polygon(100% 0, 100% 100%, 0 100%);
 }
 
-.logo-left {
-    position: absolute; /* Allows precise placement */
-    left: 0px;         /* Adjust distance from left as needed */
-    top: 0px;          /* Adjust distance from top as needed */
+nav section {
+	gap: 35px;
+}
+
+.group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+#linkedin section {
+	gap: 15px;
+}
+
+.navbar-toggler {
+	border: none;
+	background-color: #e2e2e2e2;
+	padding: 0.4rem;
+}
+
+@keyframes slideIn {
+	0% {
+		transform: translateY(1rem);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(0rem);
+		opacity: 1;
+	}
+}
+
+.slideIn {
+	-webkit-animation-name: slideIn;
+	animation-name: slideIn;
+	animation-duration: 0.4s;
+	animation-fill-mode: both;
+}
+
+@keyframes slideOut {
+	0% {
+		transform: translateY(0rem);
+		opacity: 1;
+	}
+
+	100% {
+		transform: translateY(1rem);
+		opacity: 0;
+	}
+}
+
+.slideOut {
+	-webkit-animation-name: slideOut;
+	animation-name: slideOut;
+	animation-duration: 0.4s;
+	animation-fill-mode: both;
 }
