@@ -27,46 +27,51 @@
 	/* 3d effect css.*/
 	text-transform: uppercase;
 	font-size: 130px;
-	color: #c4c4c4;
+	color: rgb(180, 46, 192);
 	top: 10%;
 	position: relative;
 	transform: translate(-50%, -50%);
 	text-shadow:
-		0 1px 0 rgb(190, 190, 190),
-		0 2px 0 rgb(185, 185, 185),
-		0 3px 0 rgb(180, 180, 180),
-		0 4px 0 rgb(175, 175, 175),
-		0 5px 0 rgb(170, 170, 170),
-		0 6px 0 rgb(165, 165, 165),
-		0 7px 0 rgb(160, 160, 160),
-
-		0 1px 5px rgba(0, 0, 0, .05),
-		0 3px 5px rgba(0, 0, 0, .10),
-		0 5px 10px rgba(0, 0, 0, .15),
-		0 7px 10px rgba(0, 0, 0, .20),
-		0 10px 15px rgba(0, 0, 0, .25);
+		0 1px 0 rgba(128, 86, 158, 0.05),
+		/* Light purple */
+		0 2px 0 rgba(119, 73, 148, 0.10),
+		/* More saturated purple */
+		0 3px 0 rgba(110, 61, 138, 0.15),
+		/* Dark purple */
+		0 4px 0 rgba(102, 49, 128, 0.20),
+		/* Even darker purple */
+		0 5px 0 rgba(93, 38, 118, 0.25),
+		/* Darkest purple */
+		0 6px 0 rgba(85, 27, 108, 0.30),
+		/* Deeper purple  */
+		0 7px 0 rgba(76, 16, 99, 0.35),
+		/* Deeper purple */
+		0 10px 15px rgba(65, 8, 90, .25);
 	transition: all 0.3s ease-in-out;
 	cursor: pointer;
 }
 
 .header-text:hover {
 	text-shadow:
-		0 1px 0 rgb(190, 190, 190),
-		0 2px 0 rgb(185, 185, 185),
-		0 3px 0 rgb(180, 180, 180),
-		0 4px 0 rgb(175, 175, 175),
-		0 5px 0 rgb(170, 170, 170),
-		0 6px 0 rgb(165, 165, 165),
-		0 7px 0 rgb(160, 160, 160),
-		0 8px 0 rgb(155, 155, 155),
-		0 9px 0 rgb(150, 150, 150),
-
+		0 1px 0 rgba(128, 86, 158, 0.05),
+		/* Light purple */
+		0 2px 0 rgba(119, 73, 148, 0.10),
+		0 3px 0 rgba(110, 61, 138, 0.15),
+		0 4px 0 rgba(102, 49, 128, 0.20),
+		0 5px 0 rgba(93, 38, 118, 0.25),
+		0 6px 0 rgba(85, 27, 108, 0.30),
+		0 7px 0 rgba(76, 16, 99, 0.35),
+		0 8px 0 rgba(68, 5, 90, 0.40),
+		/* Deeper purple */
+		0 9px 0 rgba(59, 0, 80, 0.45),
+		/* Deepest purple */
 		0 1px 5px rgba(0, 0, 0, .05),
 		0 5px 5px rgba(0, 0, 0, .10),
 		0 10px 10px rgba(0, 0, 0, .15),
 		0 15px 10px rgba(0, 0, 0, .20),
 		0 20px 15px rgba(0, 0, 0, .25);
 	transform: translate(-51%, -51%);
+	/* Keep this for the shift effect*/
 	transition: all 0.3s ease-in-out;
 }
 
