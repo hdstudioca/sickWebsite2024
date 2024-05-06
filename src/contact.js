@@ -48,6 +48,7 @@ $(document).ready(function () {
 	const contactForm = $('#contactForm');
 
 	contactForm.on('submit', function (e) {
+		console.log("submitting");
 		e.preventDefault();
 		const name = nameInput.val();
 		const email = emailInput.val();

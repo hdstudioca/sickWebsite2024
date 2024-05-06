@@ -1,16 +1,20 @@
 $(document).ready(function() {
+    
     $("#animateDiv, #animateDiv2").css("transition", "all 0.2s ease-in-out");
 
     $("#animateDiv, #animateDiv2")
         .mouseover(function() { 
+            console.log("hovering");
             $(this).data('hovering', true); // Set a flag
         })
         .mouseout(function() { 
+            console.log("not hovering");
             $(this).data('hovering', false); // Clear the flag
             $(this).css("box-shadow", "none"); 
             $(this).css("transform", "scale(1)"); 
         })
         .mousemove(function(event) {
+            console.log("moving");
             if ($(this).data('hovering')) { // Only update if hovering
                 const divRect = this.getBoundingClientRect();
                 const x = event.clientX - divRect.left; 

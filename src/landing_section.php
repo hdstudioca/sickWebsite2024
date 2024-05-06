@@ -8,7 +8,7 @@
   <div class="container mt-5 mt-down">
     <div class="row justify-content-center">
       <div class="text-center">
-        <p class="fw-bold" style="font-size: 20px;">Develop top-tier websites at a fraction of the market cost. <br> Our computer science student-led organization provides premium services at unparalleled value.</p>
+        <p class="" style="font-size: 22px;">Develop top-tier websites at a fraction of the market cost. <br> Our computer science student-led organization provides premium services at unparalleled value.</p>
       </div>
     </div>
 
